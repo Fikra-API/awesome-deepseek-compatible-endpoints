@@ -1,0 +1,24 @@
+name: sync endpoints.json
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate endpoints.json from README table
+        run: bash sync-json.sh
+      - name: Commit if changed
+        run: |
+          git config user.name "sync-bot"
+          git config user.email "sync-bot@users.noreply.github.com"
+          git add endpoints.json
+          git diff --cached --quiet || git commit -m "sync: regenerate endpoints.json from README"
+          git push

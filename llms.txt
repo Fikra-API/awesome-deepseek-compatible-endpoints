@@ -1,0 +1,10 @@
+# Fikra API
+
+> OpenAI-compatible inference API from Nairobi, serving open-weight models (DeepSeek first: V4.1 Flash $0.045/M input, $0.09/M output, 1M context) billed per token in USD with M-Pesa and card top-ups, $1 minimum. Prices verified 2026-10-19.
+
+Tracks one endpoint mirror of the [awesome-deepseek-compatible-endpoints](https://github.com/Fikra-API/awesome-deepseek-compatible-endpoints) listing: README.md is the human table, endpoints.json is the machine file, sync-json.sh regenerates it.
+
+## Pages
+- [Endpoints](https://github.com/Fikra-API/awesome-deepseek-compatible-endpoints#endpoints): every listed OpenAI-compatible endpoint serving DeepSeek, DeepSeek first
+- [Pricing](https://fikraapi.co.ke/pricing): Fikra API price table, per token USD
+- [Docs](https://fikraapi.co.ke/docs): Chat Completions surface, request whitelist, model ids

@@ -5,21 +5,272 @@
     "base_path": "/v1",
     "region": "Nairobi, Kenya (global)",
     "billing": "per-token USD, $1 minimum top-up",
-    "payments": ["M-Pesa", "card"],
+    "payments": [
+      "M-Pesa",
+      "card"
+    ],
     "pricing_url": "https://fikraapi.co.ke/pricing",
     "verified": "2026-10-19",
     "models": [
-      {"id": "deepseek-v4.1-flash-0731", "in": 0.045, "out": 0.10, "ctx": 1048576},
-      {"id": "deepseek-v4.1-flash", "in": 0.045, "out": 0.09, "ctx": 1048576},
-      {"id": "deepseek-v4.1-flash-1017", "in": 0.05, "out": 0.11, "ctx": 1048576},
-      {"id": "glm-5.3-flash", "in": 0.155, "out": 0.49, "ctx": 327680},
-      {"id": "glm-5.3", "in": 1.05, "out": 3.35, "ctx": 1048576},
-      {"id": "glm-5.2", "in": 0.75, "out": 1.65, "ctx": 1048576},
-      {"id": "kimi-k3", "in": 2.10, "out": 10.50, "ctx": 1048576},
-      {"id": "qwen3.8-27b", "in": 0.045, "out": 0.35, "ctx": 1001536, "cached_in": 0.10},
-      {"id": "mimo-v2.6-pro", "in": 0.60, "out": 1.20, "ctx": 1048576},
-      {"id": "nvidia-nemotron-3.5-super-vl", "in": 0.50, "out": 1.25, "ctx": 1048576},
-      {"id": "step-5-preview", "in": 1.25, "out": 3.30, "ctx": 1048576}
+      {
+        "id": "deepseek-v4-flash-0731",
+        "in": 0.045,
+        "out": 0.1,
+        "ctx": 1048576
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "in": 0.045,
+        "out": 0.09,
+        "ctx": 1048576
+      },
+      {
+        "id": "deepseek-v4.1-flash-1017",
+        "in": 0.05,
+        "out": 0.11,
+        "ctx": 1048576
+      },
+      {
+        "id": "glm-5.3-flash",
+        "in": 0.155,
+        "out": 0.49,
+        "ctx": 327680
+      },
+      {
+        "id": "glm-5.3",
+        "in": 1.05,
+        "out": 3.35,
+        "ctx": 1048576
+      },
+      {
+        "id": "glm-5.2",
+        "in": 0.75,
+        "out": 1.65,
+        "ctx": 1048576
+      },
+      {
+        "id": "kimi-k3",
+        "in": 2.1,
+        "out": 10.5,
+        "ctx": 1048576
+      },
+      {
+        "id": "qwen3.8-27b",
+        "in": 0.045,
+        "out": 0.35,
+        "ctx": 1001536,
+        "cached_in": 0.1
+      },
+      {
+        "id": "mimo-v2.6-pro",
+        "in": 0.6,
+        "out": 1.2,
+        "ctx": 1048576
+      },
+      {
+        "id": "nvidia-nemotron-3.5-super-vl",
+        "in": 0.5,
+        "out": 1.25,
+        "ctx": 1048576
+      },
+      {
+        "id": "step-5-preview",
+        "in": 1.25,
+        "out": 3.3,
+        "ctx": 1048576
+      }
+    ],
+    "last_checked_at": "2026-10-20"
+  },
+  {
+    "provider": "DeepInfra",
+    "host": "api.deepinfra.com",
+    "base_path": "/v1/openai",
+    "region": "US",
+    "billing": "per-token USD, card; promos on some lanes",
+    "pricing_url": "https://deepinfra.com/models",
+    "verified": "2026-10-20",
+    "last_checked_at": "2026-10-20",
+    "models": [
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "in": 0.14,
+        "out": 0.42,
+        "ctx": 1048576,
+        "cached_in": 0.004,
+        "note": "30% promo on list $0.20/$0.60"
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "in": 0.2,
+        "out": 0.6,
+        "ctx": 1048576,
+        "cached_in": 0.006,
+        "note": "promo $0.098/$0.294 seen on model page 2026-10-20"
+      }
+    ]
+  },
+  {
+    "provider": "Fireworks AI",
+    "host": "api.fireworks.ai",
+    "base_path": "/inference/v1",
+    "region": "US",
+    "billing": "per-token USD, card",
+    "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
+    "verified": "2026-10-20",
+    "last_checked_at": "2026-10-20",
+    "models": [
+      {
+        "id": "accounts/fireworks/models/deepseek-v4p1-flash",
+        "in": 0.3,
+        "out": 1.2,
+        "ctx": 256000,
+        "cached_in": 0.006
+      },
+      {
+        "id": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+        "in": 0.3,
+        "out": 1.2,
+        "ctx": 256000,
+        "cached_in": 0.006
+      }
+    ]
+  },
+  {
+    "provider": "Novita AI",
+    "host": "api.novita.ai",
+    "base_path": "/openai",
+    "region": "global",
+    "billing": "per-token USD, card",
+    "pricing_url": "https://novita.ai/models/llm",
+    "verified": "2026-10-20",
+    "last_checked_at": "2026-10-20",
+    "models": [
+      {
+        "id": "DeepSeek V4.1 Flash (console listing id pending)",
+        "in": 0.3,
+        "out": 1.2,
+        "ctx": 1048576,
+        "max_out": 393216
+      },
+      {
+        "id": "DeepSeek V4.1 Flash 1017 (console listing id pending)",
+        "in": 0.3,
+        "out": 1.2,
+        "ctx": 1048576,
+        "max_out": 393216
+      },
+      {
+        "id": "DeepSeek V4 Flash 0731 (console listing id pending)",
+        "in": 0.44,
+        "out": 1.32,
+        "ctx": 1048576
+      }
+    ]
+  },
+  {
+    "provider": "OpenRouter",
+    "host": "openrouter.ai",
+    "base_path": "/api/v1",
+    "region": "global",
+    "billing": "per-token USD, credits; some free lanes",
+    "pricing_url": "https://openrouter.ai/api/v1/models",
+    "verified": "2026-10-20",
+    "last_checked_at": "2026-10-20",
+    "models": [
+      {
+        "id": "deepseek/deepseek-v4.1-flash",
+        "in": 0.056,
+        "out": 0.12,
+        "ctx": 1048576
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash:batch",
+        "in": 0.05,
+        "out": 0.15,
+        "ctx": 1048576
+      },
+      {
+        "id": "deepseek/deepseek-v4.1-flash-1017",
+        "in": 0.3,
+        "out": 1.2,
+        "ctx": 1048576
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash-0731",
+        "in": 0.44,
+        "out": 1.32,
+        "ctx": 1048576
+      },
+      {
+        "id": "deepseek/deepseek-v4-flash",
+        "in": 0.091,
+        "out": 0.182,
+        "ctx": 1048576
+      }
+    ]
+  },
+  {
+    "provider": "SiliconFlow",
+    "host": "api.siliconflow.com",
+    "base_path": "/v1",
+    "region": "global (CN + intl)",
+    "billing": "per-token USD, card",
+    "pricing_url": "https://siliconflow.com/models/deepseek-v4-1-flash",
+    "verified": "2026-10-20",
+    "last_checked_at": "2026-10-20",
+    "models": [
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "in": 0.15,
+        "out": 0.6,
+        "ctx": 1049000,
+        "cached_in": 0.003
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "in": 0.22,
+        "out": 0.66,
+        "ctx": 1049000
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+        "in": 1.32,
+        "out": 3.96,
+        "ctx": 1049000
+      }
+    ]
+  },
+  {
+    "provider": "Together AI",
+    "host": "api.together.xyz",
+    "base_path": "/v1",
+    "region": "US",
+    "billing": "per-token USD, card",
+    "pricing_url": "https://www.together.ai/models/deepseek-v4-1-flash",
+    "verified": "2026-10-20",
+    "last_checked_at": "2026-10-20",
+    "models": [
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "in": 0.3,
+        "out": 1.2,
+        "ctx": 1000000,
+        "cached_in": 0.006
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+        "in": 0.3,
+        "out": 1.2,
+        "ctx": 1000000,
+        "cached_in": 0.006
+      },
+      {
+        "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "in": 0.14,
+        "out": 0.28,
+        "ctx": 1000000
+      }
     ]
   }
 ]

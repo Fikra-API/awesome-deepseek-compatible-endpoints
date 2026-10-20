@@ -33,3 +33,8 @@ A community-maintained list of OpenAI-compatible inference endpoints that serve 
 ## Credits
 
 - Compiled from each row's own publicly-linked pricing page. Start: Nairobi, October 2026. Unknown final size: let this grow until it stops passing the DeepSeek-first read test on first load.
+
+## Run it locally
+
+- [deepseek-quickstarts](https://github.com/Fikra-API/deepseek-quickstarts): runnable curl, Python, Node, AI SDK, LiteLLM, CrewAI and DSPy snippets.
+- [fikra-benchmark](https://github.com/Fikra-API/fikra-benchmark): nightly lane probes against the DeepSeek lanes with status output.

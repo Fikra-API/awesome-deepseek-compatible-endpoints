@@ -10,25 +10,28 @@
       "card"
     ],
     "pricing_url": "https://fikraapi.co.ke/pricing",
-    "verified": "2026-10-19",
+    "verified": "2026-10-24",
     "models": [
       {
         "id": "deepseek-v4-flash-0731",
         "in": 0.045,
-        "out": 0.1,
-        "ctx": 1048576
+        "out": 0.17,
+        "ctx": 1048576,
+        "cached_in": 0.025
       },
       {
         "id": "deepseek-v4.1-flash",
-        "in": 0.045,
-        "out": 0.09,
-        "ctx": 1048576
+        "in": 0.05,
+        "out": 0.11,
+        "ctx": 1048576,
+        "cached_in": 0.025
       },
       {
         "id": "deepseek-v4.1-flash-1017",
         "in": 0.05,
         "out": 0.11,
-        "ctx": 1048576
+        "ctx": 1048576,
+        "cached_in": 0.025
       },
       {
         "id": "glm-5.3-flash",
@@ -80,7 +83,8 @@
         "ctx": 1048576
       }
     ],
-    "last_checked_at": "2026-10-20"
+    "last_checked_at": "2026-10-20",
+    "agent_accounts": "https://fikraapi.co.ke/for-agents"
   },
   {
     "provider": "DeepInfra",

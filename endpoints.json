@@ -279,5 +279,34 @@
       }
     ],
     "reachable": "auth-gated"
+  },
+  {
+    "provider": "UNST33R",
+    "host": "api.unst33r.si",
+    "base_path": "/v1",
+    "region": "not stated",
+    "billing": "per-token USD, prepaid balance, $1 minimum top-up",
+    "payments": [
+      "card (Stripe)"
+    ],
+    "pricing_url": "https://unst33r.si/pricing",
+    "verified": "2026-10-26",
+    "models": [
+      {
+        "id": "unst33r-deepseek",
+        "in": 1.2,
+        "out": 3.2
+      },
+      {
+        "id": "unst33r-flash",
+        "in": 0.5,
+        "out": 1.5
+      },
+      {
+        "id": "unst33r-pro",
+        "in": 2.5,
+        "out": 4.5
+      }
+    ]
   }
 ]

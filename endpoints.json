@@ -4,7 +4,7 @@
     "host": "api.fikraapi.co.ke",
     "base_path": "/v1",
     "region": "Nairobi, Kenya (global)",
-    "billing": "per-token USD, $1 minimum top-up",
+    "billing": "per-token USD, $5 minimum top-up",
     "payments": [
       "M-Pesa",
       "card"

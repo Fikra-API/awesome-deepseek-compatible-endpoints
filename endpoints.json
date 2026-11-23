@@ -74,7 +74,7 @@
         "ctx": 1048576
       }
     ],
-    "last_checked_at": "2026-11-16",
+    "last_checked_at": "2026-11-23",
     "reachable": "open"
   },
   {
@@ -85,7 +85,7 @@
     "billing": "per-token USD, card; promos on some lanes",
     "pricing_url": "https://deepinfra.com/models",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-11-16",
+    "last_checked_at": "2026-11-23",
     "models": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -114,7 +114,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://docs.fireworks.ai/serverless/pricing",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-11-16",
+    "last_checked_at": "2026-11-23",
     "models": [
       {
         "id": "accounts/fireworks/models/deepseek-v4p1-flash",
@@ -141,7 +141,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://novita.ai/models/llm",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-11-16",
+    "last_checked_at": "2026-11-23",
     "models": [
       {
         "id": "DeepSeek V4.1 Flash (console listing id pending)",
@@ -174,7 +174,7 @@
     "billing": "per-token USD, credits; some free lanes",
     "pricing_url": "https://openrouter.ai/api/v1/models",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-11-16",
+    "last_checked_at": "2026-11-23",
     "models": [
       {
         "id": "deepseek/deepseek-v4.1-flash",
@@ -217,7 +217,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://siliconflow.com/models/deepseek-v4-1-flash",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-11-16",
+    "last_checked_at": "2026-11-23",
     "models": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -249,7 +249,7 @@
     "billing": "per-token USD, card",
     "pricing_url": "https://www.together.ai/models/deepseek-v4-1-flash",
     "verified": "2026-10-20",
-    "last_checked_at": "2026-11-16",
+    "last_checked_at": "2026-11-23",
     "models": [
       {
         "id": "deepseek-ai/DeepSeek-V4.1-Flash",
